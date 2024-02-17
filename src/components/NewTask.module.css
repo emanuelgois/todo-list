@@ -1,0 +1,60 @@
+
+.content {
+    border-radius: 8px;
+    margin-top: calc(0px - 1.2rem - 6px);
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    
+}
+
+.taskForm {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.taskForm input{
+    overflow: hidden;
+    //margin-top: calc(0px - 1.2rem - 6px);   
+    //align-items: center;  
+    
+    background: var(--gray-500);
+    width: 40rem;
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 0;
+    line-height: 100%;
+    color: var(--gray-300);
+    margin-right: 0.5rem;
+}
+
+
+.taskForm button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+    height: 3rem;
+    padding: 1rem;
+
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+
+    border: 0;
+    border-radius: 8px;
+    gap: 0.5rem;
+    box-shadow: none;
+    
+
+    font-weight: bold;
+    font-size: 0.875rem;
+
+    transition: 0.2s;
+
+}
+
+.taskForm button:hover {
+    background: var(--blue);
+}
